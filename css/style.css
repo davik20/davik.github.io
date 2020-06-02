@@ -185,7 +185,8 @@ html {
     grid-row-gap: 1.5rem;
     grid-template-columns: max-content 1fr;
     animation: to-right .5s ;
-    animation-delay: 0; 
+    animation-delay: 0s; 
+    animation-fill-mode: backwards;
 }
 
 
