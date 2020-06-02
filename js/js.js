@@ -24,7 +24,7 @@ const UICONTROLLER = (function(){
                 <div class="account-main">
                     <p class="account-main__balance">Balance</p>
     
-                    <p class="account-main__amount"> $40,000</p>
+                    <p class="account-main__amount"> ${values[id].total}</p>
     
                     <a href="" data-val="0" class="account-main__right-arrow viewDetails goBack" style="font-size: 1.5rem"> &larr; Back</a>
                 </div> </div>`;
@@ -102,17 +102,17 @@ const UICONTROLLER = (function(){
 const DBCONTROLLER = (function(){
  const values = [
      {
-         individual: 'Balance',
+         individual: 'Main Wallet,
          total: "$600"
      },
 
      {
-        individual: 'Earned',
+        individual: 'Savings Wallet',
         total: "$40"
     },
 
     {
-        individual: 'Deposit',
+        individual: 'Summer Wallet',
         total: "$140"
     },
 
