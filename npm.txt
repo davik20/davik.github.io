@@ -1,0 +1,5 @@
+npm run compile:sass
+
+npm live-server
+
+
