@@ -254,7 +254,7 @@ animation-fil-mode: backwards;}
 
 @keyframes to-right {
   0% {
-    opacity: .3;
+    opacity: 0;
     transform: translateX(-7rem);
   }
   
