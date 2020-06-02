@@ -102,7 +102,7 @@ const UICONTROLLER = (function(){
 const DBCONTROLLER = (function(){
  const values = [
      {
-         individual: 'Main Wallet,
+         individual: 'Main Wallet',
          total: "$600"
      },
 
