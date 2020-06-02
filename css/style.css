@@ -186,7 +186,7 @@ html {
     grid-template-columns: max-content 1fr;
     animation: to-right .5s ;
     animation-delay: 0s; 
-    animation-fill-mode: backwards;
+ 
 }
 
 
@@ -222,7 +222,7 @@ html {
     display: grid;
     grid-row-gap: 1.5rem;
     grid-template-columns: max-content 1fr; 
-    animation-fil-mode: backwards;
+   
     
 }
     .account-card--1 {
@@ -231,20 +231,22 @@ html {
        animation: to-right .5s ;
       
     animation-delay: .5s;
+     
    
 }
     .account-card--2 {
       background-image: linear-gradient(to right, #9b50ba, #7148ab);
     animation: to-right .5s ;
     animation-delay: 1s;
-animation-fil-mode: backwards;}
+}
 
 
     .account-card--3{    
       animation: to-right .5s ;
       animation-delay: 1.5s;
-      animation-fil-mode: backwards;
-      background-image: linear-gradient(to right, #ff860c, #ffc435); }
+     
+      background-image: linear-gradient(to right, #ff860c, #ffc435); 
+}
     .account-card__type {
       font-size: .8rem;
       color: white;
@@ -257,13 +259,12 @@ animation-fil-mode: backwards;}
 @keyframes to-right {
   0% {
     opacity: 0;
-    transform: translateX(-7rem);
+   
   }
   
   100% {
     
-    opacity: 1;
-    transform: translateX(0);
+   
 }
   
 }
