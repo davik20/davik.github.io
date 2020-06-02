@@ -22,7 +22,7 @@ const UICONTROLLER = (function(){
             if (id === 0) {
                 domStrings.template.innerHTML = `<div class="account">
                 <div class="account-main">
-                    <p class="account-main__balance">Balance</p>
+                    <p class="account-main__balance">${values[id].individual}</p>
     
                     <p class="account-main__amount"> ${values[id].total}</p>
     
