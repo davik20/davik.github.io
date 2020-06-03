@@ -168,17 +168,6 @@ html {
   top: -.8rem;
   margin-right: 3rem; }
 
-@media screen and (max-width: 414px) {
-  
-  .plus {
-  display: inline-block;
-  font-size: 2.2rem;
-  color: #333a46;
-  position: absolute;
-  top: -.8rem;
-  margin-right: 1rem; }
-  
-}
 
 .account {
   display: grid;
