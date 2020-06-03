@@ -166,7 +166,7 @@ html {
   color: #333a46;
   position: absolute;
   top: -.8rem;
-  margin-right: .3rem; }
+  margin-right: 3rem; }
 
 @media screen and (max-width: 414px) {
   
@@ -176,7 +176,7 @@ html {
   color: #333a46;
   position: absolute;
   top: -.8rem;
-  margin-right: .1rem; }
+  margin-right: 1rem; }
   
 }
 
